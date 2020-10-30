@@ -1,0 +1,7 @@
+{
+  "name": "cursoSpringIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
