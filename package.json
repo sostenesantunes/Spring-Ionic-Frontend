@@ -1,5 +1,5 @@
 {
-  "name": "cursoSpringIonic",
+  "name": "cursospringionic",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -35,5 +35,14 @@
     "@ionic/app-scripts": "3.2.4",
     "typescript": "2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sostenesantunes/Spring-Ionic-Frontend.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sostenesantunes/Spring-Ionic-Frontend/issues"
+  }
 }
