@@ -19,7 +19,6 @@ import { CategoriaService } from '../../services/domain/categoria.service';
 export class CategoriasPage {
 
   bucketUrl: string = API_CONFIG.bucketBaseUrl;
-
   items : CategoriaDTO[];
 
   constructor(
@@ -33,9 +32,7 @@ export class CategoriasPage {
       .subscribe(response => {
         this.items = response;
     },
-    error => {
-      console.log(error);
-    });
+    error => {});
   }
 
 }
